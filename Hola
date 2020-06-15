@@ -1,0 +1,10 @@
+~/$ cd notebooks
+~/notebooks/$ git clone https://github.com/tian2992/notebooks_dateros.git
+~/notebooks/$ cd notebooks_dateros/
+~/notebooks/notebooks_dateros/$ 
+~/notebooks/notebooks_dateros/$ virtualenv venv/
+~/notebooks/notebooks_dateros/$ source venv/bin/activate
+~/notebooks/notebooks_dateros/$ pip install -r requirements.txt
+~/notebooks/notebooks_dateros/$ cd 01-Intro
+~/notebooks/notebooks_dateros/$ 7z e municipal_guatemala_2008-2011.7z
+~/notebooks/notebooks_dateros/$ jupyter-notebook
